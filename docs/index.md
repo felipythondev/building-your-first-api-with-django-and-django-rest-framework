@@ -89,10 +89,8 @@ you need to follow these steps on create your virtualenv and install the depende
 
 ```shell
 cd building-your-first-api-with-django-and-django-rest-framework
-uv venv
-source .venv/bin/activate # if you are on Windows use: .venv\Scripts\activate
 uv sync
-task r # to see the application running
+uv run task run # to see the application running
 ```
 
 You might be able to see the application running o [127.0.0.1:8000](http://127.0.0.1:8000/).
@@ -243,7 +241,7 @@ def index(_request):
     return HttpResponse("My first API!")
 ```
 
-So now you can use the command `task r` to start our django server, so you can access [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see it.
+So now you can use the command `uv run task run` to start our django server, so you can access [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see it.
 ![my_first_api.png](images/my_first_api.png)
 
 Until here we just looked at Django concepts. Now we will dive into Django Rest Framework(DRF) concepts.
@@ -339,7 +337,7 @@ cd first_api
 ./manage.py makemigrations music
 ./manage.py migrate music
 cd ..
-task r
+uv run task run
 ```
 
 Now access http://127.0.0.1:8000/ to see your API working. 🥳
@@ -439,7 +437,7 @@ First the `list` method.
 
 ```python
     def list(self, request):
-        serializer = self.serializer_class(self.queryset, many=True)
+        serializer = self.serializer_class(Album.objects.all(), many=True)
         return Response(serializer.data)
 ```
 
