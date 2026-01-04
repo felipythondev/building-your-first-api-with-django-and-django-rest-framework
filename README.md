@@ -49,8 +49,11 @@ uv sync
 ```shell
 # Run Django development server using uv run
 uv run task run  # or the shortcut: uv run task r
+# Django will be running at http://127.0.0.1:8000/
 
-# The application will be running at http://127.0.0.1:8000/
+# Run documentation server (in a separate terminal)
+uv run task docs
+# Documentation will be available at http://127.0.0.1:8001/
 ```
 
 ## 🛠️ Available Commands
@@ -62,8 +65,8 @@ uv run task run  # or the shortcut: uv run task r
 | `uv sync` | Install/sync all dependencies (automatically creates venv) |
 | `uv pip install <package>` | Install a specific package |
 | `uv pip compile pyproject.toml` | Generate requirements.txt from pyproject.toml |
-| `uv run task docs` | Run documentation server (MkDocs) |
-| `uv run task run` or `uv run task r` | Run Django development server |
+| `uv run task docs` | Run documentation server (MkDocs) on port 8001 |
+| `uv run task run` or `uv run task r` | Run Django development server on port 8000 |
 
 ### Django Management Commands
 
@@ -132,7 +135,7 @@ uv sync
 
 The full tutorial documentation is available in two ways:
 - **Online**: https://felipythondev.github.io/building-your-first-api-with-django-and-django-rest-framework/
-- **Locally**: Run `uv run task docs` and navigate to http://127.0.0.1:8000/
+- **Locally**: Run `uv run task docs` and navigate to http://127.0.0.1:8001/
 
 ## 🎯 Tutorial Steps Summary
 

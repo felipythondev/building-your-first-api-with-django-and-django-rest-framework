@@ -15,5 +15,5 @@ dependencies = [
 
 
 [tool.taskipy.tasks]
-docs = { cmd = "mkdocs serve", help = "run documentation server" }
-run = { cmd = "python first_api/manage.py runserver", help = "run django dev server" }
+docs = { cmd = "mkdocs serve --dev-addr localhost:8001", help = "run documentation server on port 8001" }
+run = { cmd = "python first_api/manage.py runserver", help = "run django dev server on port 8000" }
