@@ -48,7 +48,7 @@ uv sync
 
 ```shell
 # Run Django development server using uv run
-uv run task run  # or the shortcut: uv run task r
+uv run task run
 # Django will be running at http://127.0.0.1:8000/
 
 # Run documentation server (in a separate terminal)
