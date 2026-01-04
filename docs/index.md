@@ -78,7 +78,7 @@ Now we have a basic understanding of Django and DRF. We are going to set up the 
 Clone the repository:
 
 ```shell
-git clone git@github.com:lipemorais/building-your-first-api-with-django-and-django-rest-framework.git
+git clone git@github.com:felipythondev/building-your-first-api-with-django-and-django-rest-framework.git
 ```
 
 With the repository cloned, you need to install uv on your machine to manage the project and dependencies here:

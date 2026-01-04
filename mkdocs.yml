@@ -34,11 +34,11 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/lipemorais
+      link: https://github.com/felipythondev
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/felipedemorais_
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/felipe-de-morais/
+      link: https://www.linkedin.com/in/felipythondev/
 
 markdown_extensions:
   - pymdownx.tasklist
@@ -65,4 +65,4 @@ markdown_extensions:
 
 
 copyright: |
-  (CC BY-NC-SA) 2024 <a href="https://github.com/lipemorais/"  target="_blank" rel="noopener">Felipe de Morais</a>
+  (CC BY-NC-SA) 2024 <a href="https://github.com/felipythondev/"  target="_blank" rel="noopener">Felipe de Morais</a>
