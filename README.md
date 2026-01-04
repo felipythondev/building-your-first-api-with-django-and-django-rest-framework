@@ -2,6 +2,8 @@
 
 Join us for an exciting tutorial 🎓, where we'll dive into the world of web APIs using Python's beloved Django framework and the Django Rest Framework. This session is perfect for Python enthusiasts 🐍 eager to expand their web development skills in a practical, hands-on environment.
 
+📖 **[View the full tutorial online](https://felipythondev.github.io/building-your-first-api-with-django-and-django-rest-framework/)**
+
 **What You Will Learn**
 
 - 🔍 Introduction to API Development with Django: Understand the basics of API construction and the role of Django and Django Rest Framework in modern web development.
@@ -31,7 +33,7 @@ Follow the installation instructions at: [uv installation guide](https://docs.as
 ### 2. Clone the Repository
 
 ```shell
-git clone git@github.com:lipemorais/building-your-first-api-with-django-and-django-rest-framework.git
+git clone git@github.com:felipythondev/building-your-first-api-with-django-and-django-rest-framework.git
 cd building-your-first-api-with-django-and-django-rest-framework
 ```
 
@@ -128,7 +130,9 @@ uv sync
 
 ## 📚 Documentation
 
-The full tutorial documentation is available through MkDocs. Run `uv run task docs` and navigate to http://127.0.0.1:8000/ to view the interactive tutorial.
+The full tutorial documentation is available in two ways:
+- **Online**: https://felipythondev.github.io/building-your-first-api-with-django-and-django-rest-framework/
+- **Locally**: Run `uv run task docs` and navigate to http://127.0.0.1:8000/
 
 ## 🎯 Tutorial Steps Summary
 
