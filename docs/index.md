@@ -6,7 +6,7 @@ The goal of this tutorial is for you to have Music API ready to receive songs, a
 
 Requirements list:
 
-1. Python 3.12
+1. Python 3.13
 2. Git
 3. [uv](https://docs.astral.sh/uv/)
 

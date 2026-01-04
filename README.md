@@ -20,7 +20,7 @@ Are you already navigating the Django landscape and seeking to deepen your exper
 
 ## 📋 Prerequisites
 
-- Python 3.12
+- Python 3.13
 - Git
 - [uv](https://docs.astral.sh/uv/) - Fast Python package installer and resolver
 
@@ -97,7 +97,7 @@ uv run python manage.py test
 
 From `pyproject.toml`:
 - **Django** >=5.1 - The web framework for perfectionists with deadlines
-- **Django REST Framework** >=3.15.2 - Powerful toolkit for building Web APIs
+- **Django REST Framework** >=3.16.1 - Powerful toolkit for building Web APIs
 - **Taskipy** >=1.13.0 - Task runner for Python projects
 
 ## 📁 Project Structure
